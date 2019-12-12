@@ -1,0 +1,171 @@
+@media only screen and (min-width: 476px) {
+    .home-main{
+        width: 100%;
+        background-size: 100% 230px;
+        background-repeat: no-repeat;
+    }
+    .overFlow{
+        height: 200px;
+    }
+}
+@media (min-width: 768px){
+    .home-main {
+    width: 70%;
+    background-size: 100% 350px;
+}
+.overFlow{
+    height: 300px;
+    }
+}
+
+@media(min-width: 992px){
+    .home-main {
+        width: 70%;
+        background-size: 100% 420px;
+    }
+    .overFlow{
+        height: 420px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .home-main {
+        width: 70%;
+        background-size: 100% 500px;
+    }
+    .overFlow{
+        height: 470px;
+    }
+}
+
+.search {
+    padding: 10px;
+    border-radius: 16px;
+    color: white;
+    background: #ed916e;
+}
+
+.border{
+    background: white;
+    border-radius: 6px
+}
+
+.row-resizing{
+    padding-top: 97px;
+    padding-left: 47px;
+    padding-right: 47px;
+}
+
+hr{
+    margin-bottom: -3px;
+}
+
+.custome-table{
+    background-color: ghostwhite
+}
+.home-page{
+    background-image: url("https://cdn-images-1.medium.com/max/2600/1*xHF26U0WHM9YuBWo9V7AAQ.jpeg");
+    background-repeat: no-repeat;
+    font-family: 'Lora', serif;
+}
+.home-main{
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar-brand{
+    color: #5f1214;
+    padding-right: 18px;
+}
+nav>ul{
+    color: #5f1214
+}
+.color-maroon{
+    color: #5f1214
+}
+.navbar{
+    background-color: rgb(230,230,230,0.5)
+}
+.btn-log{
+    background: white;
+    font-size: 10px;
+    color: #459ea3;
+}
+.icon-pr{
+    padding-right: 3px;
+}
+
+.login-footer {
+    width: 53%;
+    margin-top: -18px;
+    margin: 0 auto;
+}
+.btn-footer {
+    font-size: 10px;
+    padding-left: 0px;
+    color:grey
+}
+.hr-tag{
+    margin-top: 36px;
+    margin-bottom: 18px;
+}
+.justify-content-center{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.custom-active{
+    color:ghostwhite;
+    background-color: #5f1214;
+}
+.nav-item .custom-item{
+    color : black
+}
+.custom-inactive{
+    color : black
+}
+.show-hide-filter-button-wrap{
+    color:#5f1214;
+    background-color:rgb(255,255,255,0.4);
+    padding: .5rem 1rem;
+}
+.apply-filter>button{
+    background-color: #5f1214;
+    color:ghostwhite;
+}
+.clear-filter{
+    margin-left: 10px;
+    border : 1px solid #5f1214;
+    border-radius: .25rem;
+}
+.clear-filter>button{
+    color : #5f1214
+}
+.left{
+    position: absolute;
+    left: 10px;
+    border-radius: 50%;
+    padding: 4px;
+}
+.card-body>h6{
+    background-color: rgba(0,0,0,.03);
+}
+.card-body>h6>i{
+    color:#5f1214;
+}
+.value-badge{
+    color: #5f1214;
+    font-size: 18px;
+    font-family: 'Gugi', cursive;
+    /* font-family: 'Lora', serif; */
+}
+.btn-bluish{
+    color: #fff;
+    background-color: #0379fb;
+    border-color: #5f1214;
+    margin-left: 10px;
+}
+.overFlow{
+    overflow: auto;
+}
+.club-button{
+    display: flex;
+}
